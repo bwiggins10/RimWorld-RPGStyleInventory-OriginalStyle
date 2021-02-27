@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>RPG Style Inventory (Original Style)</name>
+	<author>Ben</author>
+	<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+	  <li>1.2</li>
+    </supportedVersions>
+	<packageId>Ben.RPGStyleInventory</packageId>
+	<description>RPG style representation of the pawn's Gear Tab.
+Uses the original RPG Style.
+Original Mod by Sandy</description>
+</ModMetaData>
