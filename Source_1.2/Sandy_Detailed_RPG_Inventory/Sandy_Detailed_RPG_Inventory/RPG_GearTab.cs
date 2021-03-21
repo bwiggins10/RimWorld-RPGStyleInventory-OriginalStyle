@@ -506,6 +506,20 @@ namespace Sandy_Detailed_RPG_Inventory
                             this.DrawThingRow1(newRectTP, current2, false);
                             break;
 
+                        //VFE Medieval Support
+                        //Shields
+                        case ApparelProperties a when (a.bodyPartGroups.Contains(BodyPartGroupDefOf.LeftHand) && a.bodyPartGroups.Contains(Sandy_Gear_DefOf.Arms) && a.layers.Contains(Sandy_Gear_DefOf.VFEC_OuterShell)):
+                            Rect newRectSH = new Rect(406f, 370f, 64f, 64f);
+                            GUI.DrawTexture(newRectSH, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
+                            this.DrawThingRow1(newRectSH, current2, false);
+                            break;
+                        //Tabards
+                        case ApparelProperties a when (a.bodyPartGroups.Contains(BodyPartGroupDefOf.Torso) && a.bodyPartGroups.Contains(BodyPartGroupDefOf.Legs) && a.layers.Contains(Sandy_Gear_DefOf.VFEC_OuterShell)):
+                            Rect newRectTBRD = new Rect(224f, 74f, 64f, 64f); ;
+                            GUI.DrawTexture(newRectTBRD, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
+                            this.DrawThingRow1(newRectTBRD, current2, false);
+                            break;
+
                     }
                 }
             }

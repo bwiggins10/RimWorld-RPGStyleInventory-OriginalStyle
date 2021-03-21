@@ -23,5 +23,8 @@ namespace Sandy_Detailed_RPG_Inventory
         //UnderWhere Compatibility
         public static ApparelLayerDef Underwear;
         public static ApparelLayerDef UnderwearTop;
+
+        //VFE Medieval Compatibility
+        public static ApparelLayerDef VFEC_OuterShell;
     }
 }
