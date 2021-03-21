@@ -466,8 +466,8 @@ namespace Sandy_Detailed_RPG_Inventory
                             this.DrawThingRow1(newRectNs, current2, false);
                             break;
 
-                        //this part add jewelry support
-                        //They currently overlape with some apparello 2 stuff
+                        //Jewelry support
+                        //Currently overlaps with some Apparello 2 items
                         case ApparelProperties a when (a.bodyPartGroups.Contains(Sandy_Gear_DefOf.Neck) && (a.layers.Contains(Sandy_Gear_DefOf.Accessories))):
                             Rect newRectNa = new Rect(76f, 74f, 64f, 64f);
                             GUI.DrawTexture(newRectNa, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
@@ -485,6 +485,27 @@ namespace Sandy_Detailed_RPG_Inventory
                             GUI.DrawTexture(newRectLHa, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
                             this.DrawThingRow1(newRectLHa, current2, false);
                             break;
+                            
+                       //UnderWhere Support
+                       //Panties
+                        case ApparelProperties a when (a.bodyPartGroups.Contains(BodyPartGroupDefOf.Legs) && a.layers.Contains(Sandy_Gear_DefOf.Underwear)):
+                            Rect newRectUW = new Rect(224f, 296f, 64f, 64f);
+                            GUI.DrawTexture(newRectUW, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
+                            this.DrawThingRow1(newRectUW, current2, false);
+                            break;
+                        //Boxers, loincloth, long johns
+                        case ApparelProperties a when (a.bodyPartGroups.Contains(Sandy_Gear_DefOf.Waist) && a.layers.Contains(Sandy_Gear_DefOf.Underwear)):
+                            Rect newRectBX = new Rect(224f, 222f, 64f, 64f);
+                            GUI.DrawTexture(newRectBX, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
+                            this.DrawThingRow1(newRectBX, current2, false);
+                            break;
+                        //Tanktop, chestwrap, bra
+                        case ApparelProperties a when (a.bodyPartGroups.Contains(BodyPartGroupDefOf.Torso) && a.layers.Contains(Sandy_Gear_DefOf.UnderwearTop)):
+                            Rect newRectTP = new Rect(298f, 148f, 64f, 64f);
+                            GUI.DrawTexture(newRectTP, ContentFinder<Texture2D>.Get("UI/Widgets/DesButBG", true));
+                            this.DrawThingRow1(newRectTP, current2, false);
+                            break;
+
                     }
                 }
             }

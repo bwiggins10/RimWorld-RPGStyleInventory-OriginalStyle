@@ -19,5 +19,9 @@ namespace Sandy_Detailed_RPG_Inventory
         //Two defs file was added, they are in Defs\Jewelry_compat
         public static BodyPartGroupDef Ears;
         public static ApparelLayerDef Accessories;
+
+        //UnderWhere Compatibility
+        public static ApparelLayerDef Underwear;
+        public static ApparelLayerDef UnderwearTop;
     }
 }
