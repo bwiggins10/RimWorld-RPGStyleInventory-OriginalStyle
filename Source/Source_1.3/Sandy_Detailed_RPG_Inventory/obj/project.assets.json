@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory\\Source\\Source_1.2\\Sandy_Detailed_RPG_Inventory\\Sandy_Detailed_RPG_Inventory.csproj",
+      "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory-OriginalStyle\\Source\\Source_1.3\\Sandy_Detailed_RPG_Inventory\\Sandy_Detailed_RPG_Inventory.csproj",
       "projectName": "Sandy_Detailed_RPG_Inventory",
-      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory\\Source\\Source_1.2\\Sandy_Detailed_RPG_Inventory\\Sandy_Detailed_RPG_Inventory.csproj",
+      "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory-OriginalStyle\\Source\\Source_1.3\\Sandy_Detailed_RPG_Inventory\\Sandy_Detailed_RPG_Inventory.csproj",
       "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory\\Source\\Source_1.2\\Sandy_Detailed_RPG_Inventory\\obj\\",
+      "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RPGStyleInventory-OriginalStyle\\Source\\Source_1.3\\Sandy_Detailed_RPG_Inventory\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config",

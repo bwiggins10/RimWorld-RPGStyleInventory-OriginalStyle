@@ -570,8 +570,8 @@ namespace Sandy_Detailed_RPG_Inventory
 
         private void DrawColonist(Rect rect, Pawn pawn)
         {
-            Vector3 pos = new Vector3(rect.width, rect.height);
-            Rot4 rot = new Rot4();
+            Vector2 pos = new Vector2(rect.width, rect.height);
+            Rot4 rot = new Rot4(2);
             GUI.DrawTexture(rect, PortraitsCache.Get(pawn, pos, rot, PawnTextureCameraOffset, 1.18f));
         }
 
